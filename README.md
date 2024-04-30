@@ -9,6 +9,7 @@
 | docker ps -a                      | Process status of everything                                      |
 | docker ps -q                      | List IDs of all containers                                        | 
 
+---
 ## CREATION OF CONTAINERS 
 
 | Command                           | Explanations                                                      |
@@ -16,7 +17,8 @@
 | docker run nginx:latest           | Running container in the foreground, it occupies the terminal     |
 | docker run -d nginx:latest        | Running container in the background and allow us to continue      |
 
-## MANGEMENT OF CONTAINERS 
+---
+## MANAGEMENT OF CONTAINERS 
 
 | Command                           | Explanations                                                      |
 |:---------------------------------:|:------------------------------------------------------------------|
@@ -24,4 +26,4 @@
 | docker rm [ID_CONTAINER]          | Delete the container                                              |
 | docker rm -f [ID_CONTAINER]       | Force the deletion of the container                               |
 | docker rm -f $(docker ps -q)      | Delete every active containers                                    |
-| docker rm -f $(docker ps -qa)       | Delete EVERY containers                                           |            
+| docker rm -f $(docker ps -qa)     | Delete EVERY containers                                           |            
