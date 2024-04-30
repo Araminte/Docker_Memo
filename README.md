@@ -1,9 +1,9 @@
-<h1 align = "center"> MY MEMO FOR USING DOCKER, ALSO SCRIPT I FOUND ON INTERNET</h1>
+<h2 align = "center"> MY MEMO FOR USING DOCKER, ALSO SCRIPT I FOUND ON INTERNET</h2>
 <hr>
 
 ## LISTING
 
-| Command                           | Explainations                                                     |
+| Command                           | Explanations                                                     |
 |:---------------------------------:|:------------------------------------------------------------------|
 | Docker ps                         | List process who's running (ps = process status)                  |
 | docker ps -a                      | Process status of everything                                      |
