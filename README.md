@@ -10,7 +10,7 @@
 | docker ps -q                      | List IDs of all containers                                        | 
 
 ---
-## CREATION OF CONTAINERS 
+|| ## CREATION OF CONTAINERS                                                                            |
 
 | Command                           | Explanations                                                      |
 |:---------------------------------:|:------------------------------------------------------------------|
