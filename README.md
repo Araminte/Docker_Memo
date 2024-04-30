@@ -24,6 +24,6 @@
 
 
 
-<tr><td align="left"><code>New gist</code></td><td align="left">Ouvrir un nouveau gist. Pour plus d’informations, consultez «&nbsp;<a href="/fr/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists" _originalhref="/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists" aria-roledescription="Pointer la carte" aria-describedby="popover-describedby">Création de gists</a>&nbsp;».</td></tr>
+<tr><td align="left"><code>New gist</code></td>                     <td align="left">Ouvrir un nouveau gist. Pour plus d’informations, consultez «&nbsp;<a href="/fr/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists" _originalhref="/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists" aria-roledescription="Pointer la carte" aria-describedby="popover-describedby">Création de gists</a>&nbsp;».</td></tr>
 
 
