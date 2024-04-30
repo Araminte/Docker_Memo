@@ -29,19 +29,19 @@
 | docker rm -f $(docker ps -qa)     | Delete EVERY containers                                           |    
 
 
-| **LISTING OF CONTAINERS**       |                                     |
+| **LISTING OF CONTAINERS**                                             |
 |---------------------------------|-------------------------------------|
 | **Command**                     | **Explanations**                    |
 | `Docker ps`                     | List processes running              |
 | `docker ps -a`                  | Process status of everything        |
 | `docker ps -q`                  | List IDs of all containers          |
 |                                 |                                     |
-| **CREATION OF CONTAINERS**      |                                     |
+| **CREATION OF CONTAINERS**                                            |
 | **Command**                     | **Explanations**                    |
 | `docker run nginx:latest`       | Run container in the foreground     |
 | `docker run -d nginx:latest`    | Run container in the background     |
 |                                 |                                     |
-| **MANAGEMENT OF CONTAINERS**    |                                     |
+| **MANAGEMENT OF CONTAINERS**                                          |
 | **Command**                     | **Explanations**                    |
 | `docker stop [ID_CONTAINER]`    | Stop the container                  |
 | `docker rm [ID_CONTAINER]`      | Delete the container                |
