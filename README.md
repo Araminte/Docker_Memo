@@ -17,4 +17,4 @@
 | `docker create volume [name]`                 | Create volume                       |
 | `docker volume ps`                            | List of volumes                     |
 | `docker volume rm [volume_name]`              | Deletion of a volume                |
-| `docker exec -it [name] bash`                 | Go in the terminal of container     |
+| `docker exec -it [name] bash`                 | Open container terminal             |
