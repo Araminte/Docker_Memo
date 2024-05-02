@@ -14,7 +14,7 @@
 | `docker rm -f [ID_CONTAINER]`                 | Force deletion of the container     |
 | `docker rm -f $(docker ps -q)`                | Delete all active containers        |
 | `docker rm -f $(docker ps -qa)`               | Delete EVERY container              |
-| `docker create volume [name]`                 | Create volume                       |
+| `docker volume create [name]`                 | Create volume                       |
 | `docker volume ps`                            | List of volumes                     |
 | `docker volume rm [volume_name]`              | Deletion of a volume                |
 | `docker exec -it [name] bash`                 | Open container terminal             |
