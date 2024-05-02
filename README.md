@@ -9,6 +9,7 @@
 | `docker run nginx:latest`                     | Run container in the foreground     |
 | `docker run -d nginx:latest`                  | Run container in the background     |
 | `docker run -d --name [name] nginx:latest`    | * Attribute name                    |
+| `docker run -d -v [var/lib/docker/volume..]`  | Create and fix the container in vol | 
 | `docker stop [ID_CONTAINER]`                  | Stop the container                  |
 | `docker rm [ID_CONTAINER]`                    | Delete the container                |
 | `docker rm -f [ID_CONTAINER]`                 | Force deletion of the container     |
