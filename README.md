@@ -24,12 +24,6 @@
 | `docker inspect`                              | List of mount                       |
 | `docker inspect --format "{{.Mounts}}" [container_ID]`| Show the detail of mounting |
 
-### Notes: 
 
-#### Volumes:
-    Docker Host: Represents the system where Docker is installed and runs containers.
-    TMPFS (RAM disk): Represents a temporary filesystem stored in RAM.
-    Volumes: Represents Docker-managed volumes, which are independent of the host system and managed by Docker itself.
-    Bind mounts: Represents direct links to files or folders on the host system. They are not managed by Docker and are directly associated with paths on the host filesystem.
 
 
