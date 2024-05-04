@@ -19,3 +19,10 @@
 | `docker volume ps`                            | List of volumes                     |
 | `docker volume rm [volume_name]`              | Deletion of a volume                |
 | `docker exec -it [name] bash`                 | Open container terminal             |
+| `docker run -d --name c1 --mount type=bind,source=/data/,target=/usr/share/nginx/html nginx:latest` | target a bind folder and specify a source |
+
+
+
+
+## Notes:
+
