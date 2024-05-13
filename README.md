@@ -32,5 +32,4 @@
 | `docker run -d --name [ID] -p [Host_Port]:[DockerPort] nginx:latest` | Declaration of the port between the host and container [Port forwarding 8080 to host to 80 in container] |
 | `docker network create --driver=bridge --subnet[ip/netmask] [network_name]` | Create network |    
 | `docker network connect [ID_network] [ID_container]` | Add virtual Interface in the network ID, it keeps docker0 network |
-| `docker run -d --name [container_ID] --network host yyy`| Bypass the bridge and share the same IP as the host |  
-
+| `docker run -d --name [container_ID] --network host yyy`| Driver host, Bypass the bridge and share the same IP as the host |  
